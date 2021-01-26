@@ -13,6 +13,9 @@ export default function Home() {
       <main className={styles.main}>
         Throwing some text in here...
         <h1 className={styles.title}>
+          <style jsx>{`
+            background-color: silver;
+          `}</style>
           Read{" "}
           <Link href="/zombie/axe/of/the/dead">
             <a>This Page!</a>
